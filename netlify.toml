@@ -1,0 +1,18 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/clients"
+  to = "/.netlify/functions/manage-clients"
+  status = 200
+
+[[redirects]]
+  from = "/api/settings"
+  to = "/.netlify/functions/manage-settings"
+  status = 200
+
+[[redirects]]
+  from = "/api/send-now"
+  to = "/.netlify/functions/send-now"
+  status = 200
