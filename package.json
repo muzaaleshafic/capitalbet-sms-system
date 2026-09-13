@@ -1,0 +1,13 @@
+{
+  "name": "capitalbet-sms-system",
+  "version": "1.0.0",
+  "description": "Dynamic daily SMS system for CapitalBet Mukono",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.6.0",
+    "@supabase/supabase-js": "^2.42.0",
+    "africastalking": "^0.5.5"
+  }
+}
